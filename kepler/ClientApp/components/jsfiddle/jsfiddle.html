@@ -1,0 +1,73 @@
+
+
+
+<div class="row">
+	<div class="col-md-12">
+
+		<pre><strong>
+	&lt;html&gt;
+     	&lt;head&gt;	
+	&lt;style&gt;
+</strong></pre>
+
+	</div>
+	<div class="col-md-12">
+
+		<div class="form-group">
+			<textarea data-bind="textInput: css" class="form-control" rows="7" id="css" placeholder="Write your css here!"></textarea>
+		</div>
+	</div>
+	<div class="col-md-12">
+
+		<pre><strong>
+	&lt;/style&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+</strong></pre>
+
+	</div>
+	<div class="col-md-12">
+		<div class="form-group">
+			<textarea data-bind="textInput: html" class="form-control" rows="10" id="html" placeholder="Write your html here!"></textarea>
+		</div>
+
+	</div>
+	<div class="col-md-12">
+
+		<pre><strong>
+	   &lt;script&gt;
+</strong></pre>
+
+	</div>
+	<div class="col-md-12">
+		<div class="form-group">
+			<textarea data-bind="textInput: js" class="form-control" rows="7" id="js" placeholder="Write your js here!"></textarea>
+		</div>
+	</div>
+
+	<div class="col-md-12">
+
+		<pre><strong>
+	&lt;/script&gt;
+	&lt;/body&gt;
+	&lt;/html&gt;
+</strong></pre>
+
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-12">
+		<button class="btn btn-default" data-bind='click: createResult'>Run</button>
+
+	</div>
+</div>
+<div class="row">
+
+	<div class="col-md-12">
+		<h4>Result:</h4>
+		<div class="embed-responsive embed-responsive-16by9">
+
+			<iframe class="embed-responsive-item" data-bind="iframeContent: stringPage"></iframe>
+		</div>
+	</div>
+</div>
